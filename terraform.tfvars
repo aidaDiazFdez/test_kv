@@ -1,0 +1,6 @@
+resource_group_name = "mytestdevweursg"
+log_analytics_name  = "mytestdevweulwk"
+name                = "mytest"
+environment         = "dev"
+location            = "westeurpope"
+description         = "Key Vault to test"
