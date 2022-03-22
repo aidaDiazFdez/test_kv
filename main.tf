@@ -27,7 +27,7 @@ data "azurerm_log_analytics_workspace" "log_analytics" {
 
 resource "azurerm_key_vault" "key_vault" {
 
-  name                            = join("", [var.name, var.environment, local.geo_region, "akv"])
+  name                            = join("", [var.name, var.environment, local.geo_region, "akvbis"])
   resource_group_name             = data.azurerm_resource_group.resource_group.name
   location                        = var.location
   tenant_id                       = data.azurerm_client_config.current.tenant_id
